@@ -1,0 +1,18 @@
+name: XPBottle
+version: 1.0.0
+main: ru.xpbottle.XPBottlePlugin
+api-version: 1.21
+author: Claude
+description: Позволяет переливать опыт игрока в стеклянную бутылку и выпускать его обратно при разбитии бутылки.
+
+commands:
+  px:
+    description: Перелить указанное количество уровней опыта в пустую бутылку в руке
+    usage: /px [количество уровней]
+    permission: xpbottle.use
+    permission-message: У вас нет прав на использование этой команды.
+
+permissions:
+  xpbottle.use:
+    description: Позволяет использовать команду /px
+    default: true
